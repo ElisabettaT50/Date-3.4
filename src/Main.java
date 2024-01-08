@@ -18,9 +18,7 @@ public class Main {
         OffsetDateTime newDateTime3 = newDateTime2.plusDays(7);
 
         String newDateTime4 = newDateTime3.format(DateTimeFormatter.ofPattern("EEEE, dd, MMMM, yyyy, hh, mm", Locale.ITALY));
-        //ofLocalizedDateTime(FormatStyle.FULL).localizedBy(Locale.ITALY));
-        //String formattedDateTime = dateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL).localizedBy(Locale.ITALY));
-
+       
         System.out.println(newDateTime1);
         System.out.println(newDateTime2);
         System.out.println(newDateTime3);
